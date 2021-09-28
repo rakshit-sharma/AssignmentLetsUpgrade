@@ -37,8 +37,8 @@ int main(){
     head=insert_end(head, 20);
     head=insert_end(head, 30);
     head=insert_end(head, 40);
-    // deletion(head, 20);
-    deleteAthead(head);
+    deletion(head, 20);
+//     deleteAthead(head);
     display(head);
     // head=insert_beg(head, 12);
     return 0;
